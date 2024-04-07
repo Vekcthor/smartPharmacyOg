@@ -1,4 +1,4 @@
-package smartPharmacy.vekcthor.com.github;
+package smartPharmacy.vekcthor.com.github.activities;
 
 import android.app.TimePickerDialog;
 import android.os.Bundle;
@@ -6,7 +6,6 @@ import android.text.InputType;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.TimePicker;
 
 import androidx.annotation.NonNull;
@@ -16,6 +15,7 @@ import java.util.Calendar;
 import java.util.List;
 
 import ca.antonious.materialdaypicker.MaterialDayPicker;
+import smartPharmacy.vekcthor.com.github.R;
 
 public class NewAlarm extends AppCompatActivity {
     TimePickerDialog picker;
